@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77ad33c5-0408-4aac-a24c-dc8b82b76ad1" name="Default" comment="" />
+    <list default="true" id="77ad33c5-0408-4aac-a24c-dc8b82b76ad1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Behaviours/IFight.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Fantasy_Game/Player.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -52,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HealingToolType.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HealingToolType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Fantasy_Game/HealingToolType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -65,13 +68,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="IFight.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IFight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Fantasy_Game/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -374,6 +398,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Fantasy_Game/SpellType.java" />
         <option value="$PROJECT_DIR$/src/main/java/Fantasy_Game/CreatureType.java" />
         <option value="$PROJECT_DIR$/src/main/java/Fantasy_Game/HealingToolType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Behaviours/IFight.java" />
       </list>
     </option>
   </component>
@@ -424,6 +449,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FantasyAdventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day_04" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Behaviours" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FantasyAdventure" type="b2602c69:ProjectViewProjectNode" />
@@ -633,6 +666,22 @@
             <element signature="e#212#213#0" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IFight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fantasy_Game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
