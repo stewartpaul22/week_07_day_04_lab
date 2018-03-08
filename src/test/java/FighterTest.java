@@ -1,7 +1,4 @@
-import Fantasy_Game.Fighter;
-import Fantasy_Game.FighterType;
-import Fantasy_Game.Player;
-import Fantasy_Game.WeaponType;
+import Fantasy_Game.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,10 +10,12 @@ public class FighterTest {
     Fighter fighter;
     WeaponType weaponType;
     FighterType fighterType;
+    Enemy enemy;
 
     @Before
     public void setUp() throws Exception {
         fighter = new Fighter("Gimley", 100, 5, FighterType.DWARF, WeaponType.AXE);
+        enemy = new Enemy("Trollie", 100, EnemyType.TROLL);
     }
 
     @Test
@@ -49,4 +48,9 @@ public class FighterTest {
         assertEquals(WeaponType.SWORD, fighter.changeWeapon(WeaponType.SWORD));
     }
 
+    @Test
+    public void testFighterAttacks() {
+        fighter.attack(enemy);
+        assertEquals(90, enemy.getHealth());
+    }
 }

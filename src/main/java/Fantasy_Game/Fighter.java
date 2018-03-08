@@ -2,7 +2,7 @@ package Fantasy_Game;
 
 import Behaviours.IFight;
 
-public class Fighter extends Player {//implements IFight {
+public class Fighter extends Player implements IFight {
 
     private int protection;
     FighterType fighterType;
@@ -30,5 +30,11 @@ public class Fighter extends Player {//implements IFight {
 
     public WeaponType changeWeapon(WeaponType weapon) {
         return this.weaponType = weapon;
+    }
+
+    @Override
+    public void attack(Player player) {
+        int updatedHealth = player.getHealth() - this.weaponType.getDamage();
+        player.setHealth(updatedHealth);
     }
 }
