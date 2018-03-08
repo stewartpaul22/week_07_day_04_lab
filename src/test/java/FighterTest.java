@@ -43,4 +43,10 @@ public class FighterTest {
     public void testCanGetFighter() {
         assertEquals(FighterType.DWARF, fighter.getFighterType());
     }
+
+    @Test
+    public void testCanChangeWeaponType() {
+        assertEquals(WeaponType.SWORD, fighter.changeWeapon(WeaponType.SWORD));
+    }
+
 }

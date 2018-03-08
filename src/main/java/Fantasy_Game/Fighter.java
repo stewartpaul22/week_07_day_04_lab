@@ -26,4 +26,9 @@ public class Fighter extends Player {//implements IFight {
     public FighterType getFighterType() {
         return fighterType;
     }
+
+
+    public WeaponType changeWeapon(WeaponType weapon) {
+        return this.weaponType = weapon;
+    }
 }
