@@ -18,4 +18,12 @@ public class Fighter extends Player {//implements IFight {
     public int getProtection() {
         return protection;
     }
+
+    public WeaponType getWeaponType() {
+        return weaponType;
+    }
+
+    public FighterType getFighterType() {
+        return fighterType;
+    }
 }
