@@ -8,7 +8,7 @@ public enum WeaponType {
 
     private final int damage;
 
-    Value(int damage) { this.damage = damage; }
+    WeaponType(int damage) { this.damage = damage; }
 
     public int getDamage() { return this.damage; }
 
